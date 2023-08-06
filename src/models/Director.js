@@ -15,7 +15,7 @@ const Director = sequelize.define("director", {
     allowNull: false,
   },
   image: {
-    type: DataTypes.STRING,
+    type: DataTypes.TEXT,
     allowNull: false,
   },
   birthday: {
