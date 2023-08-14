@@ -2,11 +2,11 @@ const { DataTypes } = require("sequelize");
 const sequelize = require("../utils/connection");
 
 const Director = sequelize.define("director", {
-  first_name: {
+  firstname: {
     type: DataTypes.STRING,
     allowNull: false,
   },
-  last_name: {
+  lastname: {
     type: DataTypes.STRING,
     allowNull: false,
   },
